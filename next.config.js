@@ -1,6 +1,6 @@
 module.exports = {
   images: {
     domains: ["fakestoreapi.com"],
-     distDir: 'build',
+     future: { webpack5: true }
   },
 };

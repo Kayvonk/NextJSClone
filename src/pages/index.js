@@ -25,7 +25,7 @@ export async function getServerSideProps(context) {
 
   return {
     props: {
-      products,
+      products: products,
     },
   };
 }

@@ -1,6 +1,7 @@
 {
-  "name": "amazon-clone",
+  "name": "next-js-clone",
   "version": "0.1.0",
+  "homepage": "https://next-js-clone.vercel.app/",
   "private": true,
   "dependencies": {
     "@heroicons/react": "^1.0.3",

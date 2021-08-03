@@ -21,7 +21,7 @@
   },
   "scripts": {
     "dev": "next",
-    "build": "next build --output public",
+    "build": "next build",
     "start": "next start"
   },
   "eslintConfig": {

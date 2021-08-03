@@ -1,8 +1,13 @@
 {
   "name": "next-js-clone",
   "version": "0.1.0",
-  "homepage": "https://next-js-clone.vercel.app/",
   "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
     "@heroicons/react": "^1.0.3",
     "@reduxjs/toolkit": "^1.5.1",
@@ -21,26 +26,9 @@
     "react-scripts": "4.0.3",
     "tailwindscss": "^0.3.0"
   },
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
   "devDependencies": {
-    "autoprefixer": "^9.8.6",
-    "postcss": "^7.0.35",
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
     "tailwindcss": "^2.2.7"
   }
 }

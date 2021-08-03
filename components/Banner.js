@@ -16,13 +16,13 @@ function Banner() {
         interval={5000}
       >
         <div>
-          <img loading="lazy" src="images/electronics.png" />
+          <img loading="lazy" src="https://i.imgur.com/6vInaBr.png" alt="ElectronicsBanner" />
         </div>
         <div>
-          <img loading="lazy" src="images/music.png" />
+          <img loading="lazy" src="https://i.imgur.com/iLmYH8G.png" alt="MusicBanner"/>
         </div>
         <div>
-          <img loading="lazy" src="images/clothing.png" />
+          <img loading="lazy" src="https://i.imgur.com/PaezKYR.png" alt="ClothingBanner"/>
         </div>
       </Carousel>
     </div>

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function ProductFeed({ products }) {
   return (
-    <div className="grid grid-flow-row-dense sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 md:-mt-10 mx-auto">
+       <div className="grid grid-flow-row-dense sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 md:-mt-10 mx-auto">
       {products
         .slice(0, 4)
         .map(({ id, title, price, description, category, image }) => (
@@ -20,10 +20,10 @@ export default function ProductFeed({ products }) {
         ))}
       <img
         className="col-span-full w-screen"
-        src="images/adventure.png"
+        src="https://i.imgur.com/F0ZI80h.png"
         alt="travel-ad"
-      />
-      <div className="md:col-span-2">
+        />
+        <div className="md:col-span-2">
         {products
           .slice(4, 5)
           .map(({ id, title, price, description, category, image }) => (
